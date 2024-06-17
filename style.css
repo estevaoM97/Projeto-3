@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: blueviolet;
+}
+
+#header .nav .nav-link.active {
+    background-color: #ffffff;
+    color: blueviolet;
+}
+
+#header .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover
+.nav-aside .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Jacquard, cursive;
+}
+
+.section-title {
+    color: blueviolet;
+}
+
+#item {
+    background-color: rgba(137, 43, 226, 0.76);
+}
+
+.nav-aside .nav-link.active,
+#item4 button {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.nav-aside .nav-link:hover {
+    color: blueviolet;
+}
+
+@media (max-width: 767px) {
+    .carousel-item-img {
+        height: 280px;
+    }
+
+    
+
+}
